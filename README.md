@@ -2,6 +2,29 @@
 
 This repository contains an Arabic NLP pipeline and a Scrapy web scraping project designed for extracting and processing textual data from Arabic news websites : www.addustour.com
 
+
+### Structure the project 
+
+
+```markdown
+Lab1
+├── .venv
+├── lab1
+│ ├── spiders
+│ │ ├── init.py
+│ │ └── addustourspider.py
+│ ├── init.py
+│ ├── items.py
+│ ├── middlewares.py
+│ ├── pipelines.py
+│ ├── settings.py
+├── NLP_pipeline
+│ ├── NLP_pipeline.ipynb
+│ ├── arabicdata.json
+├── scrapy.cfg
+└── README.md
+```
+
 ### Project Components:
 
 #### NLP Pipeline (NLP_pipeline.ipynb):
