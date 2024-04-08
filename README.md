@@ -18,7 +18,6 @@ This Jupyter Notebook implements a comprehensive pipeline for cleaning, processi
 #### Scrapy Project:
 
 - **items.py:** Defines the data structure for scraped items with fields like author, title, content, etc.
-- **middlewares.py:** Provides basic spider and downloader middleware classes for potential customization.
 - **pipelines.py:** Implements a MongoDB pipeline to store scraped items efficiently in a MongoDB database.
 
 ### Usage:
