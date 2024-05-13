@@ -23,7 +23,7 @@ Lab1
 │ ├── arabicdata.json
 ├── scrapy.cfg
 └── README.md
-'''
+```
 
 ### Project Components:
 
